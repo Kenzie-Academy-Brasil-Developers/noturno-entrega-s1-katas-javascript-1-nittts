@@ -1,15 +1,19 @@
 function oneThroughTwenty() {
+  let array = []
   for(let index = 1; index <= 20; index++) {
-     return index
+     array.push(index)
+     return array
     }    
-}
+  }
 
 //oneThroughTwenty()
 
 function evensToTwenty() {
+  let array = []
   for(let index = 1; index <= 20; index++) {
       if (index % 2 === 0) {
-        return index  
+        array.push(index)
+     return array
       }
     }
 }
@@ -17,9 +21,11 @@ function evensToTwenty() {
 //evensToTwenty()
 
 function oddsToTwenty() {
+  let array = []
   for(let index = 1; index <= 20; index++) {
     if (index % 2 !== 0) {
-      return index 
+      array.push(index)
+     return array
     }
   }
 }
@@ -27,9 +33,11 @@ function oddsToTwenty() {
 //oddsToTwenty()
 
 function multiplesOfFive() {
-    for(let index = 0; index <= 100; index++) {
+  let array = []  
+  for(let index = 0; index <= 100; index++) {
       if(index % 5 === 0) {
-        return index 
+        array.push(index)
+     return array 
       }
     }
 }
@@ -37,10 +45,12 @@ function multiplesOfFive() {
 //multiplesOfFive()
 
 function squareNumbers() {
-      let resultado = 0  
+  let array = []    
+  let resultado = 0  
       for(index = 0; index <= 10; index++) {
         resultado = index ** 2
-        return resultado
+        array.push(index)
+     return array
       }          
         
       
@@ -49,17 +59,21 @@ function squareNumbers() {
 //squareNumbers()
 
 function countingBackwards() {
-      for(index = 20; index >= 1; index--){
-        return index
+  let array = []    
+  for(index = 20; index >= 1; index--){
+        array.push(index)
+     return array
       }
 }
 
 //countingBackwards()
 
 function evenNumbersBackwards() {
+  let array = []
   for(index = 20; index >= 1; index--){
     if(index % 2 === 0) {
-      return index
+      array.push(index)
+     return array
     }
 }
 }
@@ -67,9 +81,11 @@ function evenNumbersBackwards() {
 //evenNumbersBackwards()
 
 function oddNumbersBackwards() {
+  let array = []
   for(index = 20; index >= 1; index--){
     if(index % 2 !== 0) {
-      return index
+      array.push(index)
+     return array
   }
   }
 }
@@ -77,9 +93,11 @@ function oddNumbersBackwards() {
 //oddNumbersBackwards()
 
 function multiplesOfFiveBackwards() {
-      for(index = 100; index >= 0; index--){
+  let array = []    
+  for(index = 100; index >= 0; index--){
         if(index % 5 === 0){ 
-          return index
+          array.push(index)
+     return array
         }
       }
 }
@@ -87,10 +105,12 @@ function multiplesOfFiveBackwards() {
 //multiplesOfFiveBackwards()
 
 function squareNumbersBackwards() {
+  let array = []
   let resultado = 0
     for(index = 10; index >= 1; index--) {
       resultado = index ** 2
-      return resultado
+      array.push(index)
+     return array
     }
   }
 //squareNumbersBackwards()
