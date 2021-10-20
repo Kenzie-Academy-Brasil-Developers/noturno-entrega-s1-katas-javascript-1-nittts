@@ -2,8 +2,9 @@ function oneThroughTwenty() {
   let array = []
   for(let index = 1; index <= 20; index++) {
      array.push(index)
-     return array
+     
     }    
+    return array
   }
 
 //oneThroughTwenty()
@@ -13,10 +14,10 @@ function evensToTwenty() {
   for(let index = 1; index <= 20; index++) {
       if (index % 2 === 0) {
         array.push(index)
-     return array
       }
     }
-}
+    return array
+  }
 
 //evensToTwenty()
 
@@ -25,9 +26,9 @@ function oddsToTwenty() {
   for(let index = 1; index <= 20; index++) {
     if (index % 2 !== 0) {
       array.push(index)
-     return array
     }
   }
+  return array
 }
 
 //oddsToTwenty()
@@ -36,10 +37,10 @@ function multiplesOfFive() {
   let array = []  
   for(let index = 0; index <= 100; index++) {
       if(index % 5 === 0) {
-        array.push(index)
-     return array 
+        array.push(index) 
       }
     }
+    return array
 }
 
 //multiplesOfFive()
@@ -50,10 +51,8 @@ function squareNumbers() {
       for(index = 0; index <= 10; index++) {
         resultado = index ** 2
         array.push(index)
-     return array
       }          
-        
-      
+      return array
 }
 
 //squareNumbers()
@@ -62,8 +61,8 @@ function countingBackwards() {
   let array = []    
   for(index = 20; index >= 1; index--){
         array.push(index)
-     return array
       }
+      return array
 }
 
 //countingBackwards()
@@ -73,9 +72,9 @@ function evenNumbersBackwards() {
   for(index = 20; index >= 1; index--){
     if(index % 2 === 0) {
       array.push(index)
-     return array
     }
 }
+  return array
 }
 
 //evenNumbersBackwards()
@@ -85,9 +84,9 @@ function oddNumbersBackwards() {
   for(index = 20; index >= 1; index--){
     if(index % 2 !== 0) {
       array.push(index)
-     return array
   }
   }
+  return array
 }
 
 //oddNumbersBackwards()
@@ -97,9 +96,9 @@ function multiplesOfFiveBackwards() {
   for(index = 100; index >= 0; index--){
         if(index % 5 === 0){ 
           array.push(index)
-     return array
         }
       }
+  return array
 }
 
 //multiplesOfFiveBackwards()
@@ -110,7 +109,8 @@ function squareNumbersBackwards() {
     for(index = 10; index >= 1; index--) {
       resultado = index ** 2
       array.push(index)
-     return array
     }
-  }
+    return array
+}
+
 //squareNumbersBackwards()
