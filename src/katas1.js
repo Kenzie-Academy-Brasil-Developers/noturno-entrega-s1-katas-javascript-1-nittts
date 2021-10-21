@@ -48,7 +48,7 @@ function multiplesOfFive() {
 function squareNumbers() {
   let array = []    
   let resultado = 0  
-      for(index = 0; index <= 10; index++) {
+      for(index = 1; index <= 10; index++) {
         resultado = index ** 2
         array.push(resultado)
       }          
